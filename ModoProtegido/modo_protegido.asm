@@ -77,8 +77,8 @@ gdt_data:               ; Segmento de datos plano 4GB
     dw 0xFFFF
     dw 0x0000
     db 0x00
-    db 10010010b        ; Acceso: presente, ring 0, datos RW
-    ;db 10010000b        ; RW=0 → solo lectura
+    ;db 10010010b        ; Acceso: presente, ring 0, datos RW
+    db 10010000b        ; RW=0 → solo lectura
     db 11001111b
     db 0x00
 

@@ -1,0 +1,4 @@
+#img creado con bximage
+floppya: 1_44=modo_protegido.bin, status=inserted
+boot: floppy
+log: bochsout.txt
