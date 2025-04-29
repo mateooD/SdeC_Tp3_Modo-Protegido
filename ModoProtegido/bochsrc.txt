@@ -1,3 +1,7 @@
+#sudo apt-get install bochs bochs-sdl bochs-x
+#export BXSHARE=/usr/lib/bochs/plugins
+#sudo apt-get install -y bochsbios
+#sudo apt-get install -y vgabios
 #img creado con bximage
 floppya: 1_44=modo_protegido.bin, status=inserted
 boot: floppy
